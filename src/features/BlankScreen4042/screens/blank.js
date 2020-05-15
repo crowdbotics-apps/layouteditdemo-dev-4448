@@ -38,6 +38,21 @@ export class _Blank extends React.Component {
           color="#2196F3"
           styles={{ overflow: "visible", borderStyle: "solid" }}
         />
+        <CbInputNumber
+          placeholder="Text input placeholder"
+          readonly={false}
+          maxLength=""
+          value=""
+          styles={{ overflow: "visible", borderStyle: "solid" }}
+        />
+        <Toggle
+          value={true}
+          activeColor=""
+          inactiveColor=""
+          disabled={false}
+          text="switch ON/OFF"
+          styles={{ overflow: "visible", borderStyle: "solid" }}
+        />
       </View>
     </View>
   )
