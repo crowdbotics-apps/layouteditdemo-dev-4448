@@ -59,6 +59,14 @@ export class _Blank extends React.Component {
           disabled={false}
           styles={{ overflow: "visible", borderStyle: "solid" }}
         />
+        <Slider
+          value="50"
+          minimalValue="0"
+          maximumValue="100"
+          step="1"
+          disabled={false}
+          styles={{ overflow: "visible", borderStyle: "solid" }}
+        />
       </View>
     </View>
   )
