@@ -38,13 +38,6 @@ export class _Blank extends React.Component {
           color="#2196F3"
           styles={{ overflow: "visible", borderStyle: "solid" }}
         />
-        <CbInputNumber
-          placeholder="Text input placeholder"
-          readonly={false}
-          maxLength=""
-          value=""
-          styles={{ overflow: "visible", borderStyle: "solid" }}
-        />
         <Toggle
           value={true}
           activeColor=""
@@ -56,14 +49,6 @@ export class _Blank extends React.Component {
         <CheckBox
           label="Checkbox"
           value={true}
-          disabled={false}
-          styles={{ overflow: "visible", borderStyle: "solid" }}
-        />
-        <Slider
-          value="50"
-          minimalValue="0"
-          maximumValue="100"
-          step="1"
           disabled={false}
           styles={{ overflow: "visible", borderStyle: "solid" }}
         />
