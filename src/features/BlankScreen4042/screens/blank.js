@@ -38,20 +38,6 @@ export class _Blank extends React.Component {
           color="#2196F3"
           styles={{ overflow: "visible", borderStyle: "solid" }}
         />
-        <Toggle
-          value={true}
-          activeColor=""
-          inactiveColor=""
-          disabled={false}
-          text="switch ON/OFF"
-          styles={{ overflow: "visible", borderStyle: "solid" }}
-        />
-        <CheckBox
-          label="Checkbox"
-          value={true}
-          disabled={false}
-          styles={{ overflow: "visible", borderStyle: "solid" }}
-        />
       </View>
     </View>
   )
