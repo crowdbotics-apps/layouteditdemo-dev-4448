@@ -19,22 +19,7 @@ export class _Blank extends React.Component {
         borderStyle: "solid",
         backgroundSize: "auto"
       }}
-    >
-      <View
-        styles={{
-          overflow: "visible",
-          flexDirection: "column",
-          flexWrap: "wrap",
-          justifyContent: "flex-start",
-          alignItems: "stretch",
-          alignContent: "stretch",
-          borderStyle: "solid",
-          backgroundSize: "auto"
-        }}
-      >
-        <Text styles={{ overflow: "visible", borderStyle: "solid" }}>Text</Text>
-      </View>
-    </View>
+    />
   )
 }
 
